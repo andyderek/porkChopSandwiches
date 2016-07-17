@@ -13,8 +13,21 @@ window.onload = function(){
 		}
 	}
 
+
+
 	var myTag = document.getElementsByTagName("p");
 	// var target = p[1].innerHTML
 	console.log(myTag[0].innerHTML)
-
+	document.localStorage = {'chicken': 'tasty'};
 };
+
+function funky(){
+	document.getElementById("dogpoop").innerHTML = 'hello foolio'
+};
+
+function anotherFunk(){
+	var tagged = document.getElementsByTagName("my-tag1")
+	alert(tagged[0].innerText)
+	console.log(document.localStorage)
+}
+
