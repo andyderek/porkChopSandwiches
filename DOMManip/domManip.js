@@ -13,4 +13,8 @@ window.onload = function(){
 		}
 	}
 
+	var myTag = document.getElementsByTagName("p");
+	// var target = p[1].innerHTML
+	console.log(myTag[0].innerHTML)
+
 };
